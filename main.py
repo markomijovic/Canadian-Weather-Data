@@ -6,8 +6,8 @@ abspath = os.path.abspath('tow.py')
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 ### Adding locally installed modules to path
-dPath = r'C:\Users\marko_mijovic\AppData\Roaming\Python\Python37\site-packages' # can be ignored if used from local PC with admin access
-os.environ['PATH'] += ':'+dPath
+#dPath = r'C:\Users\marko_mijovic\AppData\Roaming\Python\Python37\site-packages' # can be ignored if used from local PC with admin access
+#os.environ['PATH'] += ':'+dPath
 import WeatherData
 ############ START CALL ###############
 if __name__ == '__main__':
